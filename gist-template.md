@@ -31,6 +31,9 @@ In the email match regex, `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`, y
 Grouping constructs are what allows the quantifiers to match a specific section of the regex and allows the retrieval and separation of different subexpressions.  A subexpression is any valid regular expression pattern and is denoted with parenthesis -(subexpression).  The email matching regex has three separate subexpressions.  Each one is used to perform different matching methods.
 
 ### Bracket Expressions
+A bracket expression is denoted just as the name sounds, within brackets.  This tells the engine to match any character within the brackets.  The email matching regex has three bracket expressions within each of the three grouping constructs.  The parameters for the matching are outside of the brackets but within the grouping constructs.  That is because it is structured like the following: 
+
+            anchor([characters to be matched]how the characters should be matched)
 
 ### Character Classes
 
