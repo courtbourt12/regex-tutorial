@@ -59,3 +59,4 @@ Some characters have special meanings, like the "+" that can be used as a quanti
 Courtney Long - Currently learning full-stack website development and striving to achieve a better conceptual understanding of how to efficiently write the code.
 
 Github - courtbourt12
+https://github.com/courtbourt12
