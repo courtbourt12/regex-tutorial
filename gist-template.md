@@ -40,6 +40,17 @@ Character classes define how the characters should be included (i.e. uppercase, 
 ### The OR Operator
 The OR operator is used to allow the user to use either one character type OR the other.  This is not used in the email matching regex because it would be denoted with the symbol "|" which is not included in the regex.  However, it is useful if you wanted to say that you would allow the user input to either have an email with one type of parameters OR another.
 ### Flags
+Flags are an optional search that are placed after a forward slash - regex characters/flags.  There are six types of JavaScript flags.
+
+    1. y - Perform a "sticky" search that matches starting at the current position in the target string.
+    2. g - global search
+    3. i - Case insensitive search
+    4. m - Multi-line search
+    5. s - Allows . to match newline characters
+    6. u - Treat a pattern as a sequence of unicode code points
+
+The email matching regex does not use any flags within the expression.
+
 
 ### Character Escapes
 
