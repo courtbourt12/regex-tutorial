@@ -38,7 +38,7 @@ A bracket expression is denoted just as the name sounds, within brackets.  This 
 ### Character Classes
 Character classes define how the characters should be included (i.e. uppercase, lowercase, punctuation characters, ect).  The character classes are defined within the bracket expressions.  In the email matching regex, the first grouping construct is the following -([a-z0-9_\.-]+). The character classes shown within the bracket expression have a range of lowercase letters (a-z), a range of numbers (0-9), and the use of the following symbols _\.- that must be included at least once due to the "+" at the end of the bracket expression.
 ### The OR Operator
-
+The OR operator is used to allow the user to use either one character type OR the other.  This is not used in the email matching regex because it would be denoted with the symbol "|" which is not included in the regex.  However, it is useful if you wanted to say that you would allow the user input to either have an email with one type of parameters OR another.
 ### Flags
 
 ### Character Escapes
