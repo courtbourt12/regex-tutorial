@@ -53,7 +53,9 @@ The email matching regex does not use any flags within the expression.
 
 
 ### Character Escapes
-
+Some characters have special meanings, like the "+" that can be used as a quantifier and the "." that can be used as a character class.  A backslash before these symbols are used to escape the character which takes away any special meaning and results that they will simply be used to reference it as the symbol itself.
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Courtney Long - Currently learning full-stack website development and striving to achieve a better conceptual understanding of how to efficiently write the code.
+
+Github - courtbourt12
