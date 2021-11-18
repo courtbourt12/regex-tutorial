@@ -28,6 +28,8 @@ Quantifiers are used to specify how many of each character needs to be included 
 In the email match regex, `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`, you can see that the "+" and the "{n}" were used to quantify the required characters.  The {2,6} says that the character must match from 2 to 6 times, and the "+" must match one or more times - which just is saying it has to be included at least once.
 ### Grouping Constructs
 
+Grouping constructs are what allows the quantifiers to match a specific section of the regex and allows the retrieval and separation of different subexpressions.  A subexpression is any valid regular expression pattern and is denoted with parenthesis -(subexpression).  The email matching regex has three separate subexpressions.  Each one is used to perform different matching methods.
+
 ### Bracket Expressions
 
 ### Character Classes
